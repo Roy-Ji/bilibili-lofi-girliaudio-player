@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Bilibili 直播音频提取器 (v13 正式稳定版 - PyInstaller打包优化版)
+Bilibili 直播音频提取器 (v12 正式稳定版 - PyInstaller打包优化版)
 - 基于 v12 Debug 版优化
 - 移除终端啰嗦输出，全部写入 Log 文件
 - 保持 ADTS 格式兼容 PotPlayer
@@ -371,4 +371,5 @@ if __name__ == "__main__":
     except:
         pass
    
+
     main()
